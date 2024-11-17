@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Zeyad Abosetta">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="images/logo/logo.png" > -->
+    <title>Fatma Naser</title>
+
+    <link rel="shortcut icon" href="images/logo/logo.png" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+
+    <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="icons/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="icons/bootstrap-icons-1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/toggle.css">
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+     
+ <!--?////////////////////  -->
+ <style>
+    *{
+        margin: 0;padding: 0;
+        box-sizing: border-box;z-index: 1000;
+        font-family: "Montserrat", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+    }
+         @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+         :root{
+            --body-bg:#ffffff;
+            --background-color: #ffffff; /* Dark mode background */
+    --text-color: #121212; /* Dark mode text color */
+    --main-color:  #FD6F00; /* Dark mode border color */
+    --box-color: #F8F8F8;
+    --paragraph:#000000;
+    --progress-title-color:#333;
+    --logo-text:#1E1E1E;
+    --logo-text-second:#545454;
+    --footer-up:#F8F8F8;
+    --footer-down:#545454;
+         }
+
+         [data-bs-theme='dark'] {
+            --body-bg:#1E1E1E;
+    --background-color: #121212; /* Dark mode background */
+    --text-color: #ffffff; /* Dark mode text color */
+    --main-color:  #FD6F00; /* Dark mode border color */
+    --box-color: #121212;
+    --paragraph:#000000;
+    --progress-title-color:#cdcdcd;
+    --logo-text:#ffffff;
+    --logo-text-second:#ffffff;
+    --footer-up:#1E1E1E;
+    --footer-down:#121212;
+
+}
+
+
+body{
+    background-color: var(--body-bg);
+}
+
+h1,h2,h3,h4,h5,i{
+    color: var(--text-color);
+}
+
+i:hover{
+    opacity: 0.8;
+    transition: 0.5;
+}
+
+
+         section~section:not(:nth-child(1)){
+            margin-top: 10rem !important;
+         }
+
+
+         .btn{
+            border-radius: 3px !important;
+         }
+
+         .btn:hover{
+            font-size: 0.98rem;transition: 0.5s;
+         }
+
+.navbar{
+    padding: 1.5rem;
+}
+
+
+.navbar-custom {
+            justify-content: center; /* Center the navbar items */
+            gap: 4rem;
+        }
+        .navbar-brand {
+            margin-right: 1rem; /* Space between logo and menu */
+            display: flex;
+            align-items: center;
+            gap: 0.7rem;
+        }
+
+        .navbar-toggler {
+            margin-left: auto; /* Push the toggler to the right */
+        }
+
+.navbar-nav{
+    gap: 1rem;
+}
+        .navbar-nav .nav-item{
+            font-size: 21px;
+        }
+
+
+        .title24{
+            font-size: 3.252032520325203vh;
+            color: var(--text-color);
+        }
+        
+        
+        .title32{
+            font-size:  4.336043360433604vh;
+            font-weight:550;
+            color: #FD6F00;
+        }
+
+        .title64{
+            font-size: 6.775067750677507vh;
+            font-weight:550;
+            color: var(--text-color);
+        }
+
+
+
+        @media only screen and (max-width: 280px) {
+            
+        .title24{
+            font-size: 2.252032520325203vh !important;
+            
+        }
+        
+        
+        .title32{
+            font-size:  2.336043360433604vh !important;
+        
+        }
+
+        .title64{
+            font-size: 2.775067750677507vh !important;
+
+            font-weight:550;
+            
+        }
+
+        
+        }
+
+        .sectionC .paragraph{
+            margin: auto !important;
+        }
+
+        @media only screen and (max-width: 500px) {
+            
+       
+    
+            .sectionC .paragraph{
+                 font-size: 15px !important;
+                width: 85% !important;
+            }
+
+            .title64{
+                font-size: 4.775067750677507vh !important;
+
+            }
+
+            #projects{
+                padding: 3vh !important;
+            }
+            }
+
+
+        .socials-Iden{
+            display: flex;flex-direction: row;gap: 23px;background-color: ;margin: auto;margin-top: 1rem;
+        }
+
+        .socials-Iden a{
+            margin: 0;font-size: 25px;color: #000000;transition: 0.5s;
+        }
+
+        .socials-Iden a:hover{
+            color: #1E1E1E;
+        }
+        /* ----------------- */
+
+
+
+
+        /* ----------------- */
+
+
+
+        .services-box{
+    width: 16rem;height: 100%;background-color: #F8F8F8;text-align: left;padding-block: 1.7rem;padding-inline: 1rem;border-radius: 0.5rem;
+    color: var(--paragraph);display: flex;flex-direction: column;gap: 0.5rem;
+    transition: 0.5s;cursor: pointer;
+    height: auto;
+
+}
+
+.services-box:hover{
+    background-color: #fdfdfd;
+    scale: 1.01;
+    transition: 0.5s;
+}
+
+.services-box i{
+    font-size: 3rem;
+    color: #FD6F00;
+}
+
+.services-box h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.services-box p{
+    font-size: 17px;
+}
+
+/*  */
+
+
+.projects-buttons{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 5rem;
+}
+
+
+.projects-buttons .btn{
+   border-style: solid;
+   border-color: #515151;
+   border-radius: 1rem;
+}
+
+.projects-container{
+    padding-bottom: 4rem;
+}
+
+.projects-container .project-main-box{
+    width: 25.6rem;height: 23rem;
+}
+
+.projects-container .project-main-box .project-box{
+    height: 100%;background-color: #FFEBDB !important;width: 100%;padding-inline: 1.5rem;
+}
+
+.projects-container .project-main-box .project-content{
+    display: flex;flex-direction: column;margin-top: 1rem;
+}
+
+.projects-container .project-main-box .project-content a,.projects-container .project-main-box .project-content h4{
+    font-size: 19px !important;
+    color: #FD6F00 !important;margin: 0;
+    text-decoration: none !important;
+}
+
+.projects-container .project-main-box .project-content p{
+font-size: 2.6vh;font-weight: 700;margin: 0;margin-top: 0.5rem;
+}
+
+.projects-container .project-main-box .project-box img{
+    position: relative;width: 100%;height: 100%;
+}
+
+
+/* Scrollbar width for Chrome, Safari, and Edge */
+.projects-container .container {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #ffb074 #f1f1f1; /* For Firefox */
+}
+
+/* WebKit scrollbar styling */
+.projects-container .container::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+.projects-container .container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background of the scrollbar track */
+}
+
+.projects-container .container::-webkit-scrollbar-thumb {
+  background-color: #4CAF50; /* Scrollbar color */
+  border-radius: 10px; /* Roundness of the scrollbar */
+  border: 3px solid #f1f1f1; /* Space around the scrollbar */
+  
+}
+
+.projects-container .container::-webkit-scrollbar-thumb:hover {
+  background-color: #45a049; /* Color on hover */
+}
+
+
+
+
+.projects-btn{
+            border-radius: 3px !important;
+         }
+
+         .projects-btn:hover{
+            font-size: 1rem;transition: 0s !important;
+         }
+
+
+         .projectDepartment{
+            display: none;
+    max-height: 600px !important;
+    /* background-color: red !important; */
+height: 600px !important;
+/* height: 100% !important; */
+overflow: auto !important;
+         }
+
+         #ui-container{
+            display: grid;
+         }
+
+         @media only screen and (max-width: 600px) {
+            .idJob{
+                font-size: 40px !important;margin: 0;margin-left: 0 !important;
+            }
+
+            .projects-container .project-main-box .project-content p{
+font-size: 2vh;
+}
+
+            
+            
+            @media only screen and (max-width: 520px) {
+                .projects-container .project-main-box{
+    width: 100% !important;
+}
+            }
+            .projects-container .project-main-box{
+    width: 15.6rem ;height: 40vh !important;
+}
+
+.projects-container .project-main-box .project-box{
+    height: 100%;background-color: #FFEBDB !important;width: 100%;padding-inline: 0.7rem !important;
+}
+
+.projects-container .project-main-box .project-content{
+    /* display: flex;flex-direction: column;margin-top: 1rem; */
+}
+
+.projects-container .project-main-box .project-box img{
+    /* position: relative;width: 100%;height: 100%; */
+}
+
+.projectDepartment{
+    width: 10rem;
+    /* height: 62rem !important; */
+
+}
+
+
+#projectsButtonSelect{
+    display: block !important;
+}
+
+#projectsButton{
+    display: none;
+}
+}
+
+
+#projectsButtonSelect{
+    display: none;
+}
+
+
+
+
+.emailInput::placeholder{
+    color: #4c4c4c;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .def .rightContent{
+        margin-top: 6rem !important;
+    }
+
+    .progressContainer{
+        margin-top: 4rem !important;
+    }
+
+    .IdentiContent{
+        margin-top: 3rem !important;
+    }
+
+    #contactBtn{
+        margin-top: 1rem !important;
+    }
+
+
+    .shadow-effect {
+        flex-direction: row !important;
+    }
+}
+
+
+.navbar-brandMB{
+    display: none;
+}
+@media only screen and (max-width: 992px){
+.navbar-brandMB{
+    display: flex;
+    
+}
+
+.navbar-brandPC{
+    display: none;
+}
+
+#darkmode-toggle, #darkmode-toggle-cl{
+    position: relative !important;
+    top: 2rem !important;
+}
+
+.DownloadCV-btn{
+    margin-top: 2rem;
+}
+
+.navbar-nav {
+    gap: 0.1rem !important;
+}
+
+
+.def{
+                display: flex;flex-direction: column-reverse;margin: 0;text-align: center;
+            }
+
+            .def .rightContent{
+text-align: center !important;
+            }
+
+
+            .idJob{
+                text-align: center !important;
+                left: 0 !important ;
+                right: 0 !important;
+                margin: 0  !important;
+            }
+
+/* 
+             .about-row{
+                display: flex;flex-direction: ;justify-content: space-between;right: 0 !important;left: 0 !important;
+            } */
+            
+            #aboutme .container{
+                max-width: 970px !important;
+            }
+}
+
+
+
+@media only screen and (max-width: 930px){
+    .shadow-effect {
+        flex-direction: column !important;
+    }
+    .owl-carousel .owl-item img {
+        max-width: 10vh !important;
+    }
+
+    #customers-testimonials .shadow-effect .paragrap-comment span{
+        left:0 !important;
+        right: 0 !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        
+    }
+
+    /* #customers-testimonials .shadow-effect .paragrap-comment{
+        display: flex !important;flex-direction: row !important; justify-content: space-around !important;gap: 2rem !important;
+    } */
+    
+    
+}
+
+.shadow-effect {
+    background: #f1f1f1;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1rem;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+    width: 90%; /* Increased width from 100% to 80% */
+    max-width: 800px; /* Set a maximum width for larger screens */
+    margin: auto;
+    /* height:32vh ; */
+}
+
+
+        #customers-testimonials .shadow-effect p {
+            font-family: inherit;
+            font-size: 2vh;
+            line-height: 1.5;
+            margin: 0 0 17px 0;
+            font-weight: 300;
+            color: var(--paragraph);
+            text-align: justify;
+            
+        }
+
+        .testimonial-name {
+            margin: -17px auto 0;
+            display: table;
+            width: auto;
+            background: #3190E7;
+            padding: 9px 35px;
+            border-radius: 12px;
+            text-align: center;
+            color: #fff;
+            box-shadow: 0 9px 18px rgba(0,0,0,0.12), 0 5px 7px rgba(0,0,0,0.05);
+        }
+
+        #customers-testimonials .item {
+            text-align: center;
+            /* padding: 30px; */
+			width: 100%;
+            opacity: .2;
+            transition: all 0.3s ease-in-out;
+            /* background-color: black; */
+            margin: 0 !important;
+        }
+
+        #customers-testimonials .owl-item.active.center .item {
+            opacity: 1;
+            transform: scale3d(1.0, 1.0, 1);
+        }
+
+        .owl-carousel .owl-item{
+            /* background-color: #3190E7; */
+        }
+        .owl-carousel .owl-item img {
+            max-width: 20vh;
+            /* margin: 0 auto 17px; */
+            border-radius: 50%;
+            padding-block: 2rem;
+        }
+
+        .owl-stage-outer {
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .owl-stage {
+            padding: 0;
+            margin: 0;
+        }
+
+        .owl-dots {
+            text-align: center;
+			display: flex;justify-content: center;gap: 0.5rem;
+            margin-top: 3rem;
+        }
+
+        .owl-dots .owl-dot span {
+            background: #D9D9D9;
+            display: inline-block;
+            height: 16px;
+            width: 57px;
+            border-radius: 8px;
+            transition: all 250ms ease-out;
+        }
+
+        .owl-dots .owl-dot.active span {
+            background: #FD6F00;
+        }
+
+        #customers-testimonials .shadow-effect .paragrap-comment{
+     
+            display: flex;flex-direction: column;gap: 0 !important;
+        }
+
+        #customers-testimonials .shadow-effect .paragrap-comment .leftSpan{
+            color: #FD6F00 !important;text-align: left;font-size:4vh;position: relative;top: ;
+        }
+
+        #customers-testimonials .shadow-effect .paragrap-comment .rightSpan{
+            color: #FD6F00;text-align: left;font-size:4vh;left: ;position: relative;bottom: ;
+        }
+
+
+        @media only screen and (max-width: 520px) {
+            .owl-dots .owl-dot span {
+                width: 37px !important;
+            }
+            .shadow-effect{
+                flex-wrap: wrap !important;
+                flex-direction: column !important;
+    height:auto !important ;
+            }
+
+
+
+            .owl-carousel .owl-item img {
+            max-width: 11vh;
+            margin: auto !important;
+        }
+
+        #customers-testimonials .shadow-effect p {
+        font-size: 1.8vh !important;
+        }
+
+        #customers-testimonials .shadow-effect p span{
+            margin: 0 !important;
+            display: none !important;
+        }
+
+        .shadow-effect{
+            padding-block: 0 !important;
+            gap: 0 !important;
+        }
+
+        #customers-testimonials .shadow-effect .paragrap-comment{
+            flex-direction: row !important;
+            gap: 2rem !important;
+        }
+        #customers-testimonials .shadow-effect .paragrap-comment span{
+            left: 0 !important;
+            right: 0 !important;
+            top: 0 !important;
+            bottom: 0 !important;
+        }
+        }
+
+
+        .profileImg1{
+            opacity: 0;
+            animation: imgAnim 1.2s forwards alternate;
+        }
+
+        #designerJob2{
+            transform: translateX(-11rem);
+
+            animation: jobAnim 1.2s 0.5s forwards alternate;
+            
+
+        }
+
+        .socialMedias{
+            transform: rotate(180deg);
+            animation: socials 1.2s forwards alternate;
+
+        }
+
+
+        @keyframes imgAnim {
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+
+        @keyframes jobAnim {
+            0%{
+                transform: translateX(-11rem);
+            }
+            100%{
+                transform: translateX(0rem);
+            }
+        }
+
+
+        @keyframes socials {
+            0%{
+                transform: rotate(180deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+
+        
+</style>
+</head>
+<body>
+
+   
+<header>
+    
+    <nav class="navbar navbar-expand-lg navbar-light  container-fluid">
+        <a class="navbar-brand navbar-brandMB" href="#">
+            <img src="images/logo/logo.png" alt="" width="50" height="44" class="d-inline-block align-text-top">
+            <span style="color: var(--logo-text);font-weight: 600;font-size: 4vh;">
+                F<span style="color: var(--logo-text-second);font-weight: 10;font-size: 3.7vh;">atma</span>
+            </span>
+        </a>
+        <button class="navbar-toggler" type="button" toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarNavF" aria-controls="navbarNavF" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-custom" data-bs-toggle="collapse" id="navbarNavF">
+           
+            <a class="navbar-brand navbar-brandPC" href="#">
+                <img src="images/logo/logo.png" alt="" width="50" height="44" class="d-inline-block align-text-top" >
+                <span style="color: var(--logo-text);font-weight: 600;font-size: 4vh;">
+                    F<span style="color: var(--logo-text-second);font-weight: 10;font-size: 3.7vh;">atma</span>
+                </span>
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#definition" onclick="window.location.href='#definition'">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#aboutme" onclick="window.location.href='#aboutme'">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services" onclick="window.location.href='#services'">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects" onclick="window.location.href='#projects'">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials" onclick="window.location.href='#testimonials'">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" onclick="window.location.href='#contact'">Contact</a>
+                </li>
+    
+              
+            </ul>
+    
+            <a href="cv/cv.pdf"   onclick="window.open('cv/cv.pdf', '_blank');" style="background-color: #FD6F00;color: white;" class="btn DownloadCV-btn" >Download CV</a>
+    <!-- Bootstrap 5 switch -->
+    <input class="dark-toggle-input" type="checkbox" id="darkmode-toggle" />
+    <label class="darkmode-toggle-cl" id="darkmode-toggle-cl" for="darkmode-toggle">
+        <svg version="1.1" class="sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 496 496" style="enable-background:new 0 0 496 496;" xml:space="preserve">
+            <circle cx="248" cy="248" r="120" fill="#FDB813"/>
+            <g fill="#FD6F00">
+                <rect x="240" y="0" width="16" height="80" />
+                <rect x="240" y="416" width="16" height="80" />
+                <rect x="416" y="240" width="80" height="16" />
+                <rect x="0" y="240" width="80" height="16" />
+                <rect x="380.7" y="80.7" transform="rotate(-45 388 88)" width="80" height="16" />
+                <rect x="35.3" y="371.3" transform="rotate(-45 43 379)" width="80" height="16" />
+                <rect x="80.7" y="35.3" transform="rotate(45 88 43)" width="80" height="16" />
+                <rect x="371.3" y="380.7" transform="rotate(45 379 388)" width="80" height="16" />
+            </g>
+        </svg>
+
+        <svg version="1.1" class="moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 49.739 49.739" style="enable-background:new 0 0 49.739 49.739;" xml:space="preserve">
+            <path fill="#D3D3D3" d="M24.87,49.74c13.72,0,24.87-11.15,24.87-24.87S38.59,0,24.87,0C21.78,0,18.78,0.53,15.98,1.55
+                c0.22,0.95,0.34,1.94,0.34,2.97c0,8.29-6.72,15.01-15.01,15.01c-0.98,0-1.95-0.1-2.89-0.3c1.02,2.8,1.55,5.8,1.55,8.88
+                C0,38.59,11.15,49.74,24.87,49.74z"/>
+        </svg>
+        
+    </label>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+    const htmlElement = document.documentElement;
+    const switchElement = document.getElementById('darkmode-toggle');
+
+    // Set the default theme to dark if no setting is found in local storage
+    const currentTheme = localStorage.getItem('bsTheme') || 'dark';
+    htmlElement.setAttribute('data-bs-theme', currentTheme);
+    switchElement.checked = currentTheme === 'dark';
+
+    switchElement.addEventListener('change', function () {
+        if (this.checked) {
+            htmlElement.setAttribute('data-bs-theme', 'dark');
+            localStorage.setItem('bsTheme', 'dark');
+        } else {
+            htmlElement.setAttribute('data-bs-theme', 'light');
+            localStorage.setItem('bsTheme', 'light');
+        }
+    });
+});
+</script>
+        </div>
+    </nav>
+</header>
+
+
+<section id="definition" class="sectionC definition">
+    <div class="container">
+        
+        
+        
+        <div class="row def" style="margin-top: 5rem;align-items: center !important;">
+            <div class="col-md-6 IdentiContent">
+                
+              <h1 class="title24" id="_IntroductionText"></h1>
+              <h1 class="title32" id="DesignerName"></h1>
+              <div style="display: flex;flex-direction: column;justify-content: center;">
+                <h1 id="designerJob1" class="idJob" style="font-size: 70px;font-weight: 750;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+"></h1>
+              <h1 id="designerJob2" class="idJob" style="font-size: 70px;font-weight: 750;margin-left: 11rem;text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+"></h1>
+              </div>
+
+<div>
+    <p id="HomeDescribtion" class="" style="font-size: 21px;margin-top: 2rem;"></p>
+
+</div>           
+              <a href="#contact" style="background-color: #FD6F00;color: white;width: 18vh;" class="btn" >Hire Me</a>
+
+            </div>
+
+
+
+            <div class="col-md-6" style="display: flex;flex-direction: column;justify-content: center;">
+                <div style="
+                margin:  auto !important;
+                position: relative; 
+                width: 54.5vw; /* Make it responsive by using viewport width */
+                height: 54.5vw; /* Maintain the aspect ratio for responsiveness */
+                max-width: 407px; /* Limit the maximum size on larger screens */
+                max-height: 403px; 
+                border-radius: 50%; 
+                overflow: visible; 
+                background-image: -webkit-gradient(linear, left top, left bottom, 
+  color-stop(0, rgba(248, 157, 96, 0.4)), 
+  color-stop(1, rgba(176, 176, 176, 0.4)));
+
+background-image: -moz-linear-gradient(center bottom, 
+  rgb(248, 157, 96) 80%, 
+  rgba(176, 176, 176, 1) 20%);
+
+background-image: linear-gradient(to top, 
+  rgba(248, 157, 96, 0.8) 70%, 
+  rgba(176, 176, 176, 0.7) 30%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+             ">
+                    <div style="margin: auto !important;
+                position: relative; 
+                width: 54vw; /* Make it responsive by using viewport width */
+                height: 57vw; /* Maintain the aspect ratio for responsiveness */
+                max-width: 400px; /* Limit the maximum size on larger screens */
+                max-height: 405px; 
+                border-radius: 50%; 
+                overflow: visible; 
+                 background-color: var(--body-bg);
+                
+                ">
+              
+                <img class="profileImg1" src="images/profile1.png" alt="Styled Image" style="
+                  position: absolute;
+                  width: 112%; /* Slightly larger to ensure it extends out */
+                  height: 118%;
+                  top:-21%; /* Move image upward */
+
+                border-radius: 50%; 
+                  left: 52%; 
+                  transform: translateX(-50%); /* Center horizontally */
+                  border-radius: 45.5%;">
+
+
+
+<!-- <div style="
+    position: relative; 
+    top: 12%; 
+    left: 15%; 
+    width: 70%; 
+    height: 15%; /* Adjust the height of the overlay */
+    background-color: rgba(255, 165, 0, 0.7); 
+    transform: translateY(-50%);">
+  </div> -->
+              </div>
+                </div>
+
+
+
+              <div class="socials-Iden" >
+                <a href="" target="_blank" class="socialMedias facebook-socialMedia"><i class="bi bi-facebook" ></i></a>
+                <a href="" target="_blank" class="socialMedias twitter-socialMedia"><i class="bi bi-twitter" ></i></a>
+                <a href="" target="_blank" class="socialMedias instagram-socialMedia"><i class="bi bi-instagram" ></i></a>
+                <a href="" target="_blank" class="socialMedias linkedin-socialMedia"><i class="bi bi-linkedin" ></i></a>
+
+              </div>
+
+              
+              
+    
+        </div>
+        
+        
+        
+        
+        
+        
+    </div>
+        
+        
+        
+      
+</section>
+
+
+
+
+
+
+<section id="aboutme" class="sectionC aboutme">
+    <div class="container">
+        
+        
+        
+        <div class="row def about-row" style="margin-top: 5rem;display: flex !important;flex-direction: row;flex-wrap: wrap;align-items: center !important;">
+
+
+            <div class="col-md-6 leftImg" style="display: flex;flex-direction: column;">
+                
+                <div style="
+                margin:  auto;
+                position: relative; 
+                width: 54.5vw; /* Make it responsive by using viewport width */
+                height: 54.5vw; /* Maintain the aspect ratio for responsiveness */
+                max-width: 407px; /* Limit the maximum size on larger screens */
+                max-height: 403px; 
+                border-radius: 50%; 
+                overflow: visible; 
+                background-image: -webkit-gradient(linear, left top, left bottom, 
+  color-stop(0, rgba(255, 207, 176, 1)), 
+  color-stop(1, rgba(176, 176, 176, 0)));
+
+background-image: -moz-linear-gradient(center top, 
+  rgba(255, 207, 176, 1) 0%, 
+  rgba(176, 176, 176, 0) 100%);
+
+background-image: linear-gradient(to bottom, 
+  rgba(255, 207, 176, 1) 0%, 
+  rgba(176, 176, 176, 0) 100%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+             ">
+                    <div style="margin: auto;
+                position: relative; 
+                width: 54vw; /* Make it responsive by using viewport width */
+                height: 57vw; /* Maintain the aspect ratio for responsiveness */
+                max-width: 400px; /* Limit the maximum size on larger screens */
+                max-height: 405px; 
+                border-radius: 50%; 
+                overflow: visible; 
+                 background-color: var(--body-bg);
+                
+                ">
+              
+                <img src="images/profile2.png" alt="Styled Image" style="
+                position: absolute;
+                  width: 112%; /* Slightly larger to ensure it extends out */
+                  height: 118%;
+                  top:-21%; /* Move image upward */
+
+                border-radius: 50%; 
+                  left: 52%; 
+                  transform: translateX(-50%); /* Center horizontally */
+                  border-radius: 45.5%;">
+
+
+
+<!-- <div style="
+    position: absolute; 
+    top: 12%; 
+    left: 15%; 
+    width: 70%; 
+    height: 15%; /* Adjust the height of the overlay */
+    background-color: rgba(255, 165, 0, 0.7); 
+    transform: translateY(-50%);">
+  </div> -->
+              </div>
+                </div>
+
+
+
+
+              
+              
+    
+        </div>
+        
+
+
+
+
+
+
+
+            <div class="col-md-6 rightContent">
+                
+              <h1 class="title64">About Me </h1>
+              <p id="about-describtion" class="paragraph" style="font-size: 20px;margin-top: 2rem;"></p>
+
+
+              <style>
+      .progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--progress-title-color);
+    margin: 0 0 10px;
+    text-align: left;
+}
+.progress{
+    height: 12px;
+    background: #EDECEC;
+    border-width: 0px 0;
+    border-style: solid none;
+    border-color: transparent;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    overflow: visible;
+    position: relative;
+    width: 100% !important;
+}
+.progress .progress-barS{
+    border: none;
+    box-shadow: none;
+    border-radius: 0.3rem;
+    background: transparent;
+    position: relative;
+    animation: animate-positive 1s;
+    height: 100% !important;
+    
+}
+.progress .progress-barS:before{
+    content: "";
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid #FD6F00;
+    background: #f0f0f0;
+    position: absolute;
+    top: -7px;
+    right: -0.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+              </style>
+
+<div class="container progressContainer">
+    <div  class="row">
+        <div class="col-md-10" id="about-progress-container">
+            <!-- <h3 class="progress-title">UX</h3>
+            <div class="progress">
+                <div class="progress-barS" style="width:100%; background:#FD6F00;"></div>
+            </div>
+            <h3 class="progress-title">Website Design</h3>
+            <div class="progress">
+                <div class="progress-barS" style="width:75%; background:#FD6F00;"></div>
+            </div>
+
+            <h3 class="progress-title">App Design</h3>
+            <div class="progress">
+                <div class="progress-barS" style="width:55%; background:#FD6F00;"></div>
+            </div>
+
+
+            <h3 class="progress-title">Graphic Design</h3>
+            <div class="progress">
+                <div class="progress-barS" style="width:55%; background:#FD6F00;"></div>
+            </div> -->
+        </div>
+    </div>
+</div>
+
+
+        
+        
+        
+        
+        
+    </div>
+        
+        
+        
+      
+</section>
+
+
+
+
+
+
+<section id="services" class="sectionC services">
+    <h1 class="title64" style="text-align: center;">Services </h1>
+    <div class="paragraph" style="display: flex;justify-content: center;width: 50%;margin: auto;">
+        <p id="services-describtion" class="" style="font-size: 17px;margin-top: 2rem;text-align: center;"></p>
+    </div>
+
+
+    <div class="" style="margin: auto !important;margin-top: 4rem !important;padding: 1.5rem;">
+        <div id="serviceContainer" class="row" style="text-align: center;justify-content: center;gap: 1.5rem;row-gap: 1rem;">
+            <!-- <div class="col-md-3 services-box" >
+                <i class="bi bi-clipboard2-pulse"></i>
+                <h4 class="service-address">UI / UX</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+            </div>
+
+
+
+            <div class="col-md-3 services-box" >
+                <i class="bi bi-laptop"></i>
+                <h4 class="service-address">Web Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+            </div>
+
+
+
+            <div class="col-md-3 services-box" >
+                <i class="bi bi-phone"></i>
+                <h4 class="service-address">App Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+            </div>
+
+
+
+            <div class="col-md-3 services-box" >
+                <i class="bi bi-palette"></i>
+                <h4 class="service-address">Graphic Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. Morbi diam nisi nam diam interdum</p>
+            </div> -->
+           
+        </div>
+    </div>
+
+
+</section>
+
+
+
+<section id="projects" class="sectionC projects">
+    <h1 class="title64" style="text-align: center;">My Projects </h1>
+    <div class="paragraph" style="display: flex;justify-content: center;width: 50%;margin: auto;">
+        <p id="projects-describtion-paragraph" class="" style="font-size: 17px;margin-top: 2rem;text-align: center;">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+    </div>
+
+
+<div id="projectsButton" class="projects-buttons">
+    <button onclick="_handleProjects('all-container')" class="btn btn-light projects-btn">All</button>
+    <button style="background-color: #FD6F00;color: #FFFFFF;" onclick="_handleProjects('ui-container')" class="btn btn-light projects-btn">UI/UX</button>
+    <button onclick="_handleProjects('web-container')" class="btn btn-light projects-btn">Back-End</button>
+    <button onclick="_handleProjects('app-container')" class="btn btn-light projects-btn">Front-End</button>
+    <button onclick="_handleProjects('graphic-container')" class="btn btn-light projects-btn">BI</button>
+</div>
+
+
+<select id="projectsButtonSelect" class="form-select" style="width: 50%;margin: auto;" name="" id="">
+    <option onclick="_handleProjects('all-container')"  value="all-container">All</option>
+    <option  onclick="_handleProjects('ui-container')"  value="ui-container" selected>UI/UX</option>
+    <option onclick="_handleProjects('web-container')"  value="web-container" >Back-End</option>
+    <option onclick="_handleProjects('app-container')"  value="app-container" >Front-End</option>
+    <option onclick="_handleProjects('graphic-container')"  value="graphic-container" >BI</option>
+</select>
+
+
+
+
+
+<div class="projects-container" style="margin-top: 4rem;">
+    <div id="all-container" class="container projectDepartment" style="overflow: auto;width: 100%;">
+        <div id="all-projects-container" class="row" style="gap: 1.3rem;row-gap: 7rem;justify-content: center;">
+
+
+
+           
+            
+
+
+
+        </div>
+    </div>
+    
+    <div id="ui-container" class="container projectDepartment" style="overflow: auto;width: 100%;">
+        <div id="ui-projects-container" class="row" style="gap: 1.3rem;row-gap: 7rem;justify-content: center;">
+
+
+
+           
+            
+
+
+
+        </div>
+    </div>
+
+
+    <div id="web-container" class="container projectDepartment" style="overflow: auto;width: 100%;">
+        <div  id="Back-End-projects-container" class="row" style="gap: 1.3rem;row-gap: 7rem;justify-content: center;">
+
+         
+
+
+        </div>
+    </div>
+
+
+    <div id="app-container" class="container projectDepartment" style="overflow: auto;width: 100%;">
+        <div  id="Front-End-projects-container" class="row" style="gap: 1.3rem;row-gap: 7rem;justify-content: center;">
+
+         
+
+
+        </div>
+    </div>
+
+
+    <div id="graphic-container" class="container projectDepartment" style="overflow: auto;width: 100%;">
+        <div  id="bi-projects-container" class="row" style="gap: 1.3rem;row-gap: 7rem;justify-content: center;">
+
+         
+
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="testimonials" class="sectionC testimonials" style="width: 100%;">
+    <h1 class="title64" style="text-align: center;">Testimonials </h1>
+    <div  class="paragraph" style="display: flex;justify-content: center;width: 50%;margin: auto;">
+        <p id="testimonials-describtion-paragraph" class="" style="font-size: 17px;margin-top: 2rem;text-align: center;"></p>
+    </div>
+
+
+
+<section class="sectionC" style="background-color: ;width: ;margin-top: 3rem;">
+    <div class="row" style="width: 100%; margin: 0; padding: 0;">
+        <div class="col-sm-12" style="padding: 0;">
+       
+            <div id="customers-testimonials" class="owl-carousel">
+                <!-- TESTIMONIAL 1 -->
+               
+            </div>
+            </div>
+    </div>
+</section>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact" class="sectionC contact">
+    <h1 class="title64" style="text-align: center;">Lets Design Together </h1>
+    <div class="paragraph" style="display: flex;justify-content: center;width: 50%;margin: auto;">
+        <p id="contact-describtion-paragraph" class="" style="font-size: 17px;margin-top: 2rem;text-align: center;">Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
+    </div>
+
+
+  <div class="container" style="margin-top: 3rem;">
+    <div class="row" style="justify-content: center !important;gap: 12px; ">
+        <div class="col-md-4">
+            <input id="EmailMessage" class="form-control emailInput" type="email" style="background-color: #ffffff;color: #121212;margin-right: 12px !important; " placeholder="Enter Your Email">
+        </div>
+
+        <div class="col-md-2">
+            <button id="contactBtn" onclick="sendEmail();" class="btn" style="background-color: #FD6F00;color: white;width: 130px;font-weight: 550;font-size: 17px;border-radius: 1vh !important;">Contact Me</button>
+        </div>
+    </div>
+  </div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<footer style="margin-top: 15rem !important;background-color: var(--footer-up);">
+   <div style="display: flex;justify-content: center;align-items: center;">
+    <a class="" href="#" style="text-align: center;display: flex;align-items: center;gap: 1rem; text-decoration: none;">
+        <img src="images/logo/logo.png" alt="" width="50" height="44" class="d-inline-block align-text-top">
+        <span style="color: var(--logo-text);font-weight: 600;font-size: 6vh;">
+            F<span style="color: var(--logo-text-second);font-weight: normal;">atma</span>
+        </span>
+    </a>
+   </div>
+
+
+
+
+
+
+<!-- --------------------------------- -->
+
+    <!-- Grid container -->
+    <div class="container">
+        <!-- Section: Links -->
+        <div class="">
+          <!-- Grid row-->
+          <div class=" text-center d-flex justify-content-center pt-5" style="gap: 2.7rem !important;display: flex !important;flex-wrap: wrap;">
+            <!-- Grid column -->
+            <div class="">
+              <h6 class=" font-weight-bold">
+                <a href="#definition" style="color: var(--text-color);" class=" text-decoration-none">Home</a>
+              </h6>
+            </div>
+
+
+            <div class="">
+                <h6 class=" font-weight-bold">
+                  <a href="#aboutme" style="color: var(--text-color);" class=" text-decoration-none">About Me</a>
+                </h6>
+              </div>
+
+              <div class="">
+                <h6 class=" font-weight-bold">
+                  <a href="#services" style="color: var(--text-color);" class=" text-decoration-none">Services</a>
+                </h6>
+              </div>
+
+              <div class="">
+                <h6 class=" font-weight-bold">
+                  <a href="#projects" style="color: var(--text-color);" class=" text-decoration-none">Projects</a>
+                </h6>
+              </div>
+
+              <div class="">
+                <h6 class=" font-weight-bold">
+                  <a href="#testimonials" style="color: var(--text-color);" class=" text-decoration-none">Testimonials</a>
+                </h6>
+              </div>
+
+              
+              <div class="">
+                <h6 class=" font-weight-bold">
+                  <a href="#contact" style="color: var(--text-color);" class=" text-decoration-none">Contact</a>
+                </h6>
+              </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </div>
+        <!-- Section: Links -->
+  
+   
+    
+  
+        <!-- Section: Social -->
+
+      
+        <div class="text-center mb-5" style="margin-top: 7rem;">
+          <a href="" target="_blank" class="text-decoration-none text-white fs-5 me-4 facebook-socialMedia">
+            <i class="bi bi-facebook"></i>
+          </a>
+          <a href="" target="_blank" class="text-decoration-none text-white fs-5 me-4 twitter-socialMedia">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <!-- <a href="" target="_blank" class="text-decoration-none text-white fs-5 me-4">
+            <i class="bi bi-google"></i>
+          </a> -->
+          <a href="" target="_blank" class="text-decoration-none text-white fs-5 me-4 instagram-socialMedia">
+            <i class="bi bi-instagram"></i>
+          </a>
+          <a href="" target="_blank" class="text-decoration-none text-white fs-5 me-4 linkedin-socialMedia">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="" target="_blank" class="text-decoration-none text-white fs-5 me-4 github-socialMedia">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: var(--footer-down);color: #ffffff;"
+           >
+        © 2025 Copyright: <span style="color: var(--main-color);font-weight: 720;">Fatma</span>
+       All right reserved
+      </div>
+      <!-- Copyright -->
+
+
+
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+ <script src="script/jquery.js"></script>
+    <script src="script/popper.min.js" ></script>
+    <script src="script/bootstrapbundilemin.js"  ></script>
+    <script src="script/owlcrouseljs.js"></script>
+
+    <script src="projects/NOjs.js"></script>
+    <script src="testimonials/comments.js"></script>
+    <script src="script/script.js"></script>
+    <script src="Main/main.js"></script>
+    <script>
+
+       var _projectsBtns =  document.querySelectorAll('.projects-btn');
+
+        for (var i = 0; i < _projectsBtns.length; i++) {
+            _projectsBtns[i].addEventListener("click", function(){ 
+                _projectsBtns.forEach(btn => {
+                    btn.style.background="";
+                    btn.style.color="";
+                });
+                this.style.background="#FD6F00";
+                this.style.color="#FFFFFF";
+                
+         });
+            
+        }
+
+
+
+        var _projectsBtns =  document.querySelectorAll('.projects-btn');
+
+        for (var i = 0; i < _projectsBtns.length; i++) {
+            _projectsBtns[i].addEventListener("click", function(){ 
+                _projectsBtns.forEach(btn => {
+                    btn.style.background="";
+                    btn.style.color="";
+                });
+                this.style.background="#FD6F00";
+                this.style.color="#FFFFFF";
+                
+         });
+            
+        }
+
+
+
+
+        function _handleProjects(id) {
+            var _departments =  document.querySelectorAll('.projectDepartment');
+            for (var i = 0; i < _departments.length; i++) {
+                _departments[i].style.display='none';
+        }
+
+        document.getElementById(id).style.display='grid';
+        }
+
+
+
+
+        document.getElementById('projectsButtonSelect').addEventListener('change', function() {
+        var selectedValue = this.value;
+        _handleProjects(selectedValue); // Call the function with the selected value
+    });
+
+    </script>
+
+
+<script>
+    
+    function sendEmail() {
+    const subject = 'Message from portfolio';
+    const message = document.getElementById('EmailMessage').value;
+
+    // Replace 'recipient@example.com' with the actual email address
+    const recipientEmail = 'fatmanaser829@gmail.com';
+
+    // Construct the mailto link with the subject and body
+    const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+    // Open the default mail client
+    window.location.href = mailtoLink;
+}
+
+</script>
+
+
+<!-- <script src="script/handleProjects.js"></script> -->
+    
+</body>
+</html>
